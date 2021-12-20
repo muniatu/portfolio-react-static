@@ -12,6 +12,7 @@ export default () => (
       <meta name="description" content="Adrià Compte's Personal Website" />
     </Head>
     <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
+    <p>test</p>
     <img src={logoImg} alt="" />
   </div>
 )
