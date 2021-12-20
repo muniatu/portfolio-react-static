@@ -1,6 +1,6 @@
 import React from 'react'
 //
-import Head from 'react-static'
+import { Head } from 'react-static'
 import logoImg from '../logo.png'
 
 export default () => (
