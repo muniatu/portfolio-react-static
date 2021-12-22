@@ -6,17 +6,21 @@
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "NODE_ENV=production postcss src/app.css > dist.css && react-static build",
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "postcss-cli": "^9.1.0",
     "react": "^16.0.0",
     "react-router": "^4.2.0",
     "react-static": "^5.1.6"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
+    "postcss": "^8.4.5",
+    "serve": "^6.1.0",
+    "tailwindcss": "^3.0.7"
   }
 }

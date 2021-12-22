@@ -15,6 +15,14 @@ export default {
         component: "src/containers/About"
       },
       {
+        path: "/softonic-projects",
+        component: "src/containers/Softonic-projects"
+      },
+      {
+        path: "/softonic-projects/chrome-plugin",
+        component: "src/containers/softonic-projects/Chrome-plugin"
+      },
+      {
         path: "/blog",
         component: "src/containers/Blog",
         getData: () => ({
