@@ -11,8 +11,7 @@ export default () => (
       <title>Adrià Compte | Product Designer and Creative Developer</title>
       <meta name="description" content="Adrià Compte's Personal Website" />
     </Head>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-    <p>test</p>
-    <img src={logoImg} alt="" />
+    <h1 className="text-4xl font-bold underline">Welcome to paradise meh</h1>
+    <p className="text-4xl font-bold underline">test</p>
   </div>
 )
