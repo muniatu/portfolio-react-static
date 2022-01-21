@@ -1,13 +1,13 @@
 {
-  "name": "portfolio",
+  "name": "react-static-example-basic",
   "version": "1.0.1",
+  "type": "module",
   "main": "index.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "start": "NODE_ENV=production postcss src/app.css > dist.css && react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "NODE_ENV=production postcss src/app.css > dist.css && react-static build",
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
