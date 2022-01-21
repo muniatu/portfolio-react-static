@@ -1,7 +1,7 @@
 {
   "name": "react-static-example-basic",
   "version": "1.0.1",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
