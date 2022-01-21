@@ -15,8 +15,16 @@ export default {
         component: "src/containers/About"
       },
       {
+        path: "/projects",
+        component: "src/containers/Projects"
+      },
+      {
         path: "/softonic-projects",
         component: "src/containers/Softonic-projects"
+      },
+      {
+        path: "/under-construction",
+        component: "src/containers/Construction.js"
       },
       {
         path: "/softonic-projects/chrome-plugin",
