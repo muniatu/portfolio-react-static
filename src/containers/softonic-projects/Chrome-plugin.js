@@ -1,6 +1,5 @@
 import React from 'react'
 import { Head } from 'react-static'
-import ZoomImage from '../../Zoom-image'
 
 //
 
@@ -31,7 +30,7 @@ export default () => (
       observing the company’s needs that were arising,  I came up with the idea to build a 
       browser plugin that would deliver a similar experience, but with Softonic's content.</p>
       <div className="text-center pb-8">
-        <ZoomImage alt="Muzli original example" className="pb-2" src="https://res.cloudinary.com/muniatu/image/upload/v1640130692/chrome-plugin/muzli-original.png"/>
+      {/* <ZoomImage alt="Muzli original example" className="pb-2" src="https://res.cloudinary.com/muniatu/image/upload/v1640130692/chrome-plugin/muzli-original.png"/> */}
         <a className="font-normal text-white font-serif underline text-xl italic">Muzli for Google Chrome</a>
       </div>
       <p className="font-serif text-xl leading-relaxed pb-4">Muzli is a Chrome plugin that shows you the latest 
@@ -41,10 +40,12 @@ export default () => (
       with Softonic's content, it would be a great opportunity to engage with our users, so I created two simple 
       prototypes to showcase the idea. Both in light and dark themes:</p>
       <div className="text-center pb-8">
-        <ZoomImage alt="Softonic muzli light" className="rounded-md" src="https://res.cloudinary.com/muniatu/image/upload/v1640130309/chrome-plugin/softonic-muzli-light.jpg"/>
+      {/* <ZoomImage alt="Softonic muzli light" className="rounded-md" src="https://res.cloudinary.com/muniatu/image/upload/v1640130309/chrome-plugin/softonic-muzli-light.jpg"/> */}
+        
       </div>
       <div className="text-center pb-8">
-        <ZoomImage alt="Softonic muzli dark" className="rounded-md" src="https://res.cloudinary.com/muniatu/image/upload/v1640130309/chrome-plugin/softonic-muzli-dark.jpg" />
+      {/* <ZoomImage alt="Softonic muzli dark" className="rounded-md" src="https://res.cloudinary.com/muniatu/image/upload/v1640130309/chrome-plugin/softonic-muzli-dark.jpg" /> */}
+        
       </div>
       <p className="font-serif text-xl leading-relaxed pb-4">At the moment, many members of the engineering team, 
       specially some front-end developers, were interested in learning how to create Chrome plugins, we were 
