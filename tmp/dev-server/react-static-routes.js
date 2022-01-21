@@ -7,11 +7,13 @@ import { cleanPath } from 'react-static'
 
 import t_0 from '../../src/containers/Home'
 import t_1 from '../../src/containers/About'
-import t_2 from '../../src/containers/Softonic-projects'
-import t_3 from '../../src/containers/softonic-projects/Chrome-plugin'
-import t_4 from '../../src/containers/Blog'
-import t_5 from '../../src/containers/Post'
-import t_6 from '../../src/containers/404'
+import t_2 from '../../src/containers/Projects'
+import t_3 from '../../src/containers/Softonic-projects'
+import t_4 from '../../src/containers/Construction.js'
+import t_5 from '../../src/containers/softonic-projects/Chrome-plugin'
+import t_6 from '../../src/containers/Blog'
+import t_7 from '../../src/containers/Post'
+import t_8 from '../../src/containers/404'
 
 // Template Map
 global.componentsByTemplateID = global.componentsByTemplateID || [
@@ -21,12 +23,14 @@ t_2,
 t_3,
 t_4,
 t_5,
-t_6
+t_6,
+t_7,
+t_8
 ]
 
 // Template Tree
 global.templateIDsByPath = global.templateIDsByPath || {
-  '404': 6
+  '404': 8
 }
 
 // Get template for given path
